@@ -120,7 +120,7 @@
             <Chinese>補給</Chinese>
             <Turkish>Erzaklar</Turkish>
             <Portuguese>Suprimentos</Portuguese>
-            <Korean>보급품</Korean>
+            <Korean>군량</Korean>
         </Key>
         <Key ID="STR_AMMO">
             <Original>Ammunition</Original>
@@ -302,7 +302,7 @@
             <Chinese>-- 裝載貨物</Chinese>
             <Turkish>-- SANDIĞI YÜKLE</Turkish>
             <Portuguese>-- CARREGAR CAIXA NO TRANSPORTE</Portuguese>
-            <Korean>-- 군수물자 적재</Korean>
+            <Korean>-- 군수품 적재</Korean>
         </Key>
         <Key ID="STR_ACTION_UNLOAD_BOX">
             <Original>-- UNLOAD CRATES</Original>
@@ -315,7 +315,7 @@
             <Chinese>-- 卸載貨物</Chinese>
             <Turkish>-- SANDIKLARI İNDİR</Turkish>
             <Portuguese>-- DESCARREGAR CAIXAS</Portuguese>
-            <Korean>-- 군수물자 하역</Korean>
+            <Korean>-- 군수품 하역</Korean>
         </Key>
         <Key ID="STR_ACTION_LOAD_VIV">
             <Original>-- LOAD TO VEHICLE</Original>
@@ -349,7 +349,7 @@
             <Chinese>貨物已上至運輸載具中。</Chinese>
             <Turkish>Mühimmat sandığı başarıyla nakliye aracına yüklendi.</Turkish>
             <Portuguese>Caixa de munição carregada com sucesso no veículo de transporte.</Portuguese>
-            <Korean>군수물자를 수송차량에 성공적으로 적재하였습니다.</Korean>
+            <Korean>군수품을 수송차량에 성공적으로 적재하였습니다.</Korean>
         </Key>
         <Key ID="STR_BOX_UNLOADED">
             <Original>Ammo box successfully unloaded from the transport vehicle.</Original>
@@ -362,7 +362,7 @@
             <Chinese>貨物已從運輸載具中卸下。</Chinese>
             <Turkish>Mühimmat sandığı başarıyla nakliye aracından indirildi.</Turkish>
             <Portuguese>Caixa de munição descarregada com sucesso do veículo de transporte.</Portuguese>
-            <Korean>군수물자를 수송차량에서 성공적으로 하역하였습니다.</Korean>
+            <Korean>군수품을 수송차량에서 성공적으로 하역하였습니다.</Korean>
         </Key>
         <Key ID="STR_BOX_CANTLOAD">
             <Original>There is no nearby vehicle capable of carrying the ammo box.</Original>
@@ -375,7 +375,7 @@
             <Chinese>附近沒有具備足夠空間裝載貨物的載具。</Chinese>
             <Turkish>Yakınlarda bu sandığı taşıyabilecek araç yok.</Turkish>
             <Portuguese>Não existe veículo nas proximidades capaz de carregar a caixa de munição.</Portuguese>
-            <Korean>주변에 군수물자를 수송할 수 있는 차량이 없습니다.</Korean>
+            <Korean>주변에 군수품을 수송할 수 있는 차량이 없습니다.</Korean>
         </Key>
         <Key ID="STR_FOB_ACTION">
             <Original>-- DEPLOY FOB --</Original>
@@ -790,7 +790,7 @@
             <Chinese>回收%1將會獲得：</Chinese>
             <Turkish>Bu %1 geri dönüştürülünce bunları verecektir:</Turkish>
             <Portuguese>Reciclando este %1, irá obter:</Portuguese>
-            <Korean>재활용 할 경우 %1 의 보급품이 반환됨</Korean>
+            <Korean>재활용 할 경우 %1 의 군수품이 반환됨</Korean>
         </Key>
         <Key ID="STR_RECYCLING_PROCEED">
             <Original>Recycle</Original>
@@ -1342,7 +1342,7 @@
             <Chinese>資源乘數</Chinese>
             <Turkish>Kaynak arttırıcı çarpan</Turkish>
             <Portuguese>Multiplicador de recursos</Portuguese>
-            <Korean>군수물자 생산 비율</Korean>
+            <Korean>군수품 생산 비율</Korean>
         </Key>
         <Key ID="STR_PARAMS_FATIGUE">
             <Original>Stamina</Original>
@@ -1849,6 +1849,7 @@
             <Chinese>你將使用你目前的身上裝備並取代選定的班級成員。</Chinese>
             <Turkish>Şuanki ekipmanınız ile seçilen kişinin yerinde doğacaksınız.</Turkish>
             <Portuguese>Você irá reaparecer no membro selecionado e o substituir enquanto mantém seu equipamento atual.</Portuguese>
+            <Korean>선택한 분대원을 배치하고, 현재 보유중인 장비를 유지하면서 교체할 수 있습니다.</Korean>
         </Key>
         <Key ID="STR_REMOVE_MEMBER">
             <Original>Remove</Original>
@@ -1861,6 +1862,7 @@
             <Chinese>移除</Chinese>
             <Turkish>Kaldır</Turkish>
             <Portuguese>Remover</Portuguese>
+            <Korean>분대원 삭제</Korean>
         </Key>
         <Key ID="STR_REMOVE_MEMBER_TOOLTIP">
             <Original>The selected squad member will be deleted.</Original>
@@ -1873,6 +1875,7 @@
             <Chinese>所選的班級成員將被移除</Chinese>
             <Turkish>Seçilen tim üyesi silinecektir.</Turkish>
             <Portuguese>O membro selecionado será deletado</Portuguese>
+            <Korean>선택한 분대원을 삭제합니다.</Korean>
         </Key>
         <Key ID="STR_RESUPPLY">
             <Original>Resupply</Original>
@@ -1885,6 +1888,7 @@
             <Chinese>補給</Chinese>
             <Turkish>Erzak Yenile</Turkish>
             <Portuguese>Reabastecer</Portuguese>
+            <Korean>재보급</Korean>
         </Key>
         <Key ID="STR_RESUPPLY_TOOLTIP">
             <Original>If the selected squad member is close enough from a resupply point (mobile spawn or FOB) they will get a brand new, full loadout.</Original>
@@ -1897,7 +1901,7 @@
             <Chinese>如果選定的班級乘員距離補給點（機動重生點或前線基地）夠近時，他們將獲得一套全新的完整裝備。</Chinese>
             <Turkish>Seçilen tim üyesi herhangi bir mühimmat tazeleme noktasına yakın ise (mobil respawn veya FOB) üstündeki herşey yenileyecektir.</Turkish>
             <Portuguese>Se o membro selecionado estiver próximo o suficiente de um ponto de reabastecimento (respawn móvel ou FOB), irá adquirir um novo loadout.</Portuguese>
-            <Korean>선택한 분대원을 배치하고, 현재 분대를 유지하면서 교체할 수 있습니다.</Korean>
+            <Korean>선택한 분대원이 재보급 지점(재투입 차량 또는 전초 기지)에 중분히 가까이 있으면 장비를 재보급 받을 수 있읍니다.</Korean>
         </Key>
         <Key ID="STR_CONFIRM">
             <Original>Confirm</Original>
@@ -2066,7 +2070,7 @@
             <Chinese>所選的班級成員以補給。</Chinese>
             <Turkish>Seçilen tim üyesinin mühimmatı yenilendi.</Turkish>
             <Portuguese>O membro selecionado do grupo se remuniciou.</Portuguese>
-            <Korean>선택된 분대원이 재정비 하었습니다.</Korean>
+            <Korean>선택된 분대원이 재보급 받았읍니다.</Korean>
         </Key>
         <Key ID="STR_RESUPPLY_KO">
             <Original>The selected squad member isn't close enough from a FOB or mobile spawn.</Original>
@@ -2443,7 +2447,7 @@
             <Chinese>預設</Chinese>
             <Turkish>Varsayılan</Turkish>
             <Portuguese>Padrão</Portuguese>
-            <Korean>기본장비</Korean>
+            <Korean>기본 장비</Korean>
         </Key>
         <Key ID="STR_FOB_REPACKAGE">
             <Original>-- REPACKAGE FOB --</Original>
@@ -2628,6 +2632,7 @@
             <Original>Maximum sector deactivation delay (starts increasing after 5th activation minute)</Original>
             <German>Maximale Verzögerung zur Sektor Deaktivierung (Beginnt nach 5 Minuten seit Aktivierung)</German>
             <Turkish>Sektör kapanma üst limiti (Sektörün açılmasından 5 dakika sonra artmaya başlar)</Turkish>
+            <Korean>최대 섹터 비활성화 지연(5분후 활성화 가능)</Korean>
         </Key>
         <Key ID="STR_PARAM_LIMITEDZEUS">
             <Original>Limited Zeus interface</Original>
@@ -2639,6 +2644,7 @@
             <Original>Chance that enemies will stay in immobile/damaged vehicles</Original>
             <German>Chance, dass Feinde in fahrunfähigen/beschädigten Fahrzeugen verbleiben</German>
             <Turkish>Düşmanların hasarlı araçların içinde kalma şansı</Turkish>
+            <Korean>적군이 손상되거나 움직이지 못하는 차량에 머물 확률</Korean>
         </Key>
         <Key ID="STR_DEPLOY_IN_PROGRESS">
             <Original>Deployment in progress...</Original>
@@ -3986,7 +3992,7 @@
             <Chinese>回收站</Chinese>
             <Turkish>Dönüşüm deposu</Turkish>
             <Portuguese>Centro de desmanche de veículos</Portuguese>
-            <Korean>재활용공장</Korean>
+            <Korean>재활용 공장</Korean>
         </Key>
         <Key ID="STR_HELI_BUILDING">
             <Original>Flight Control</Original>
@@ -4058,7 +4064,7 @@
             <Chinese>-- 卸載補給箱</Chinese>
             <Turkish>-- İKMAL KUTUSUNU ÇIKAR</Turkish>
             <Portuguese>-- DESCARREGAR CAIXA DE SUPRIMENTOS</Portuguese>
-            <Korean>-- 보급품(S) 내리기</Korean>
+            <Korean>-- 군량(S) 내리기</Korean>
         </Key>
         <Key ID="STR_ACTION_UNSTORE_AMMO">
             <Original>-- UNLOAD AMMO CRATE</Original>
@@ -4152,7 +4158,7 @@
             <Chinese>無法回收：\n前線基地區域內沒有回收站</Chinese>
             <Turkish>Geri dönüşemez:\nYakınlarda Dönüşüm Deposu yok</Turkish>
             <Portuguese>Não é possível reciclar:\nNão há centro de desmanche de veículos na área da FOB</Portuguese>
-            <Korean>전초기지 영역안에 재활용공장이 없어 재활용 할 수 없습니다.</Korean>
+            <Korean>전초기지 영역안에 재활용 공장이 없어 재활용 할 수 없습니다.</Korean>
         </Key>
         <Key ID="STR_REASSIGN_ZEUS">
             <Original>-- REASSIGN ZEUS</Original>
@@ -4174,7 +4180,7 @@
             <Chinese>總覽</Chinese>
             <Turkish>KÜRESEL</Turkish>
             <Portuguese>GLOBAL</Portuguese>
-            <Korean>전체군수물자수량</Korean>
+            <Korean>전체 군수품 수량</Korean>
         </Key>
         <Key ID="STR_RESOURCE_GLOBAL_ACTION">
             <Original>-- Switch resource display</Original>
@@ -4185,7 +4191,7 @@
             <Chinese>-- 切換資源顯示</Chinese>
             <Turkish>-- Kaynak bölgesini değiştir</Turkish>
             <Portuguese>-- Alterar painel de recursos</Portuguese>
-            <Korean>-- 군수물자현황 조회</Korean>
+            <Korean>-- 군수품 현황 조회</Korean>
         </Key>
         <Key ID="STR_BLACKLISTED_ITEM_FOUND">
             <Original>Following items are not allowed:\n%1</Original>
@@ -4416,7 +4422,7 @@
             <Chinese>-- 建造補給工廠 --</Chinese>
             <Turkish>-- İkmal kutusu üretimi kur --</Turkish>
             <Portuguese>-- Construir fábrica de suprimentos --</Portuguese>
-            <Korean>-- 보급품(S) 생산공장 건설</Korean>
+            <Korean>-- 군량(S) 생산공장 건설</Korean>
         </Key>
         <Key ID="STR_SECAMMOBUILD_ACTION">
             <Original>-- Build ammo facility --</Original>
@@ -4460,7 +4466,7 @@
             <Chinese>資源不足。\n\n你需要\n%1補給\n%2彈藥\n%3油料</Chinese>
             <Turkish>Yetersiz kaynak.\n\nLazım olan: \n%1 İkmal \n%2 Mermi\n%3 Benzin</Turkish>
             <Portuguese>Sem recursos suficientes.\n\nVocê precisa de:\n%1 Suprimentos\n%2 Munição\n%3 Combustível</Portuguese>
-            <Korean>공장을 지을러면 이 지역의 저장창고에 군수물자가 필요합니다.\n\n필요항목:\n%1 보급품\n%2 탄약\n%3 연료</Korean>
+            <Korean>공장을 지을러면 이 지역의 저장창고에 군수품이 필요합니다.\n\n필요항목:\n%1 보급품\n%2 탄약\n%3 연료</Korean>
         </Key>
         <Key ID="STR_PRODUCTION_FACBUILD_SUCCESS">
             <Original>Facility established.</Original>
@@ -4482,7 +4488,7 @@
             <Chinese>AI 後勤模塊</Chinese>
             <Turkish>AI Lojistiği</Turkish>
             <Portuguese>Módulo Logístico automatizado</Portuguese>
-            <Korean>군수물자수송 AI 물류시스템</Korean>
+            <Korean>군수품수송 AI 물류시스템</Korean>
         </Key>
         <Key ID="STR_LOGISTIC_ACTION">
             <Original>-- Logistic Overview</Original>
@@ -4559,7 +4565,7 @@
             <Chinese>裝載中</Chinese>
             <Turkish>Yükleniyor</Turkish>
             <Portuguese>Carregando</Portuguese>
-            <Korean>군수물자 상하차 중</Korean>
+            <Korean>군수품 상하차 중</Korean>
         </Key>
         <Key ID="STR_LOGISTIC_TRAVEL">
             <Original>On the way</Original>
@@ -4592,7 +4598,7 @@
             <Chinese>資源不足</Chinese>
             <Turkish>Kaynak yok</Turkish>
             <Portuguese>Sem recursos</Portuguese>
-            <Korean>군수물자 없음</Korean>
+            <Korean>군수품 없음</Korean>
         </Key>
         <Key ID="STR_LOGISTIC_NOSPACE">
             <Original>No storagespace</Original>
@@ -4625,7 +4631,7 @@
             <Chinese>目前車隊貨物</Chinese>
             <Turkish>Şuanki konvoy kargosu</Turkish>
             <Portuguese>Comboio de carga atual</Portuguese>
-            <Korean>운반중인 군수물자</Korean>
+            <Korean>운반중인 군수품</Korean>
         </Key>
         <Key ID="STR_LOGISTIC_TRUCKCOUNT">
             <Original>Assigned Trucks</Original>
@@ -4669,7 +4675,7 @@
             <Chinese>花費：100 補給和 100 油料。</Chinese>
             <Turkish>Maliyeti : 100 ikmal ve 100 benzin</Turkish>
             <Portuguese>Custa: 100 de suprimento e 100 de combustível.</Portuguese>
-            <Korean>비용: 100보급품(S), 100연료(F)</Korean>
+            <Korean>비용: 100군량(S), 100연료(F)</Korean>
         </Key>
         <Key ID="STR_LOGISTIC_TT_SELLTRUCK">
             <Original>Gives: 50 supplies and 50 fuel.</Original>
@@ -4680,7 +4686,7 @@
             <Chinese>回收：50 補給和 50 燃料。</Chinese>
             <Turkish>Veriyor: 50 ikmal ve 50 benzin.</Turkish>
             <Portuguese>Fornece: 50 de suprimento e 50 de combustível.</Portuguese>
-            <Korean>회수: 50보급품(S), 50연료(F)</Korean>
+            <Korean>회수: 50군량(S), 50연료(F)</Korean>
         </Key>
         <Key ID="STR_LOGISTIC_CONFIRM">
             <Original>Confirm Mission</Original>
@@ -4713,7 +4719,7 @@
             <Chinese>資源不足</Chinese>
             <Turkish>Yetersiz kaynak</Turkish>
             <Portuguese>Sem recursos suficientes</Portuguese>
-            <Korean>군수물자가 충분하지 않습니다.</Korean>
+            <Korean>군수품이 충분하지 않습니다.</Korean>
         </Key>
         <Key ID="STR_LOGISTIC_ROUTETITLE">
             <Original>Mission planning</Original>
@@ -4757,7 +4763,7 @@
             <Chinese>從這裡運往另一地點的補給數量。（請用整數）</Chinese>
             <Turkish>Burdan diğer istikamete gidecek ikmaller. (sadece sayılar)</Turkish>
             <Portuguese>Valores de suprimento daqui para o outro destino. (apenas valores inteiros)</Portuguese>
-            <Korean>출발지에서 도착지로 운반되는 보급품(S) 수량(정수만 입력)</Korean>
+            <Korean>출발지에서 도착지로 운반되는 군량(S) 수량(정수만 입력)</Korean>
         </Key>
         <Key ID="STR_LOGISTIC_TT_AMMO">
             <Original>Ammo value from here to the other destination. (only whole numbers)</Original>
@@ -5010,8 +5016,8 @@
             </Portuguese>
             <Korean>&lt;br/&gt;&lt;br/&gt;
            이 반격 작전의 최종 목표는 모든 적을 이 지역에서 완전히 몰아내는 것이다. 하지만 대도시에는 많은 적군들이 있고, 이 적군들은 잘 정비되어 있으며 충분한 장비를 보유하고 있다.&lt;br/&gt; &lt;br/&gt;
-           이러한 대도시를 점령하기 위해선 많은 군수물자를 필요로 한다.&lt;br/&gt; &lt;br/&gt;
-           많은 군수물자를 확보하기 위해서는 다수의 다른 거점들을 점령해야 한다. 거점 종류는 총 5가지이며 각각 특별한 기능을 가지고 있다. 이것을 잘 활용하여 아군의 질과 양을 항상시켜 최종 목표를 달성해야 한다.&lt;br/&gt; &lt;br/&gt;
+           이러한 대도시를 점령하기 위해선 많은 군수품을 필요로 한다.&lt;br/&gt; &lt;br/&gt;
+           많은 군수품을 확보하기 위해서는 다수의 다른 거점들을 점령해야 한다. 거점 종류는 총 5가지이며 각각 특별한 기능을 가지고 있다. 이것을 잘 활용하여 아군의 질과 양을 항상시켜 최종 목표를 달성해야 한다.&lt;br/&gt; &lt;br/&gt;
            주의!!! 민간인을 학살하거나 재산을 약탈하지 마라!!! 적군 민병대가 출현할 것이다!!!&lt;br/&gt; &lt;br/&gt;
            </Korean>
         </Key>
@@ -5091,7 +5097,7 @@
             - 두번째는 적군 군사기지로 마름모에 아래쪽에 선이 그려져 있으며 적군 기갑부대가 주둔하고 있다. 지속적으로 기계화부대를 동반한 수색정찰병을 내보고 있으며 근처 적군 도시를 공격하면 지원병을 보내기도 한다.&lt;br/&gt; &lt;br/&gt;
             - 세번째는 네모안에 통신탑이 그려져 있는 곳으로 '라디오타워'라고 한다. 이 곳을 점령하면 주변지역의 적 거점을 공격할때 적군들이 지원부대을 못부르거나 오더라도 적은 숫자만 오게 된다.&lt;br/&gt; &lt;br/&gt;
             - 네번째는 네모인데 가운데에 검은 점이 찍혀있는 것으로 '도시'이라고 한다. 이 곳을 점령하면 이용가능한 AI의 숫자가 증가(최대100명)한다.&lt;br/&gt; &lt;br/&gt;
-            - 마지막으로 주유기 표시로 된 '공장'이다. 이 지역의 경우 도시 이름 옆에 (S),(A),(F)가 표기되어 있는데 이는 생산 가능한 보급품의 종류를 나타낸다. 즉 보급품은 (S), 탄약은 (A), 연료는 (F)이다.&lt;br/&gt; &lt;br/&gt;
+            - 마지막으로 주유기 표시로 된 '공장'이다. 이 지역의 경우 도시 이름 옆에 (S),(A),(F)가 표기되어 있는데 이는 생산 가능한 군수품의 종류를 나타낸다. 즉 군량은 (S), 탄약은 (A), 연료는 (F)이다.&lt;br/&gt; &lt;br/&gt;
               이 지역은 아군이 점령하게 되면 왼쪽 상단 메뉴안에 --저장창고 건설-- 이라는 메뉴가 생성된다. 마을내 적당한 곳에 저장창고를 건설하면 이 곳에 이 도시에서 생산되는 군수물자가 저장된다.&lt;br/&gt; &lt;br/&gt;
               이 군수물자를 AI 수송부대를 이용하여 전초기지로 운반하면 장비를 생산하는데 필요한 군수물자로 사용할 수 있게 된다.&lt;br/&gt; &lt;br/&gt;
                          </Korean>
@@ -5161,13 +5167,13 @@
             </Portuguese>
             <Korean>&lt;br/&gt;&lt;br/&gt;
             군수물자는 총 3가지 종류가 있다.&lt;br/&gt; &lt;br/&gt;
-            &lt;t color='#00ff00'&gt;보급품:&lt;/t&gt; 보급품(S)은 가장 중요한 군수물자로, 보급품이 없으면 AI 보병을 비롯하여 모든 장비를 배치(생산)할 수 없다.&lt;br/&gt; &lt;br/&gt;
-                                                     또한 장비를 배치(생산)할 때 가장 많이 소비되는 보급품이다.&lt;br/&gt; &lt;br/&gt;
+            &lt;t color='#00ff00'&gt;보급품:&lt;/t&gt; 군량(S)은 가장 중요한 군수물자로, 군량이 없으면 AI 보병을 비롯하여 모든 장비를 배치(생산)할 수 없다.&lt;br/&gt; &lt;br/&gt;
+                                                     또한 장비를 배치(생산)할 때 가장 많이 소비되는 군수품이다.&lt;br/&gt; &lt;br/&gt;
             &lt;t color='#ff0000'&gt;탄약:&lt;/t&gt; 탄약(A)은 무장한 장비를 배치(생산)할 때 필요하다.&lt;br/&gt; &lt;br/&gt;
-            &lt;t color='#ffff00'&gt;연료:&lt;/t&gt; 연료(F)는 장비을 움직이기 위해서 꼭 필요한 보급품이며, 대형 장비는 더 많은 연료를 소비한다.&lt;br/&gt; &lt;br/&gt;
-            각 군수물자는 지도에서 주유기 표시로 된 '공장 '에서 생산된다. 이 지역의 경우 도시 이름 옆에 (S),(A),(F)가 표기되어 있는데 이는 생산 가능한 보급품의 종류를 나타낸다. 즉 보급품은 (S), 탄약은 (A), 연료는 (F)이다.&lt;br/&gt; &lt;br/&gt;
-            이 지역을 아군이 점령하게 되면 왼쪽 상단 메뉴안에 --저장창고건설-- 이라는 메뉴가 생성된다. 도시내 적당한 곳에 저장창고를 건설하면 이 곳에 이 마을에서 생산된 군수물자가 저장된다. 이 군수물자를 AI수송부대를 이용하여 전초기지로 운반하면 장비를 생산하는데 사용할 수 있게 된다.&lt;br/&gt; &lt;br/&gt;
-            만약 이 '생산공장'에서 생산중인 물품을 변경하고자 한다면, 도시내에 설치한 저장창고로 공장건설에 필요한 군수물자(생산하고자 하는 군수물자 50, 나머지 두가지 군수물자 100)을 운반한 후 변경하고자 하는 군수물자의 생산공장을 건설하면 된다.&lt;br/&gt; &lt;br/&gt;
+            &lt;t color='#ffff00'&gt;연료:&lt;/t&gt; 연료(F)는 장비을 움직이기 위해서 꼭 필요한 군수품이며, 대형 장비는 더 많은 연료를 소비한다.&lt;br/&gt; &lt;br/&gt;
+            각 군수품은 지도에서 주유기 표시로 된 '공장 '에서 생산된다. 이 지역의 경우 도시 이름 옆에 (S),(A),(F)가 표기되어 있는데 이는 생산 가능한 보급품의 종류를 나타낸다. 즉 군량은 (S), 탄약은 (A), 연료는 (F)이다.&lt;br/&gt; &lt;br/&gt;
+            이 지역을 아군이 점령하게 되면 왼쪽 상단 메뉴안에 --저장창고건설-- 이라는 메뉴가 생성된다. 도시내 적당한 곳에 저장창고를 건설하면 이 곳에 이 마을에서 생산된 군수품이 저장된다. 이 군수품을 AI수송부대를 이용하여 전초기지로 운반하면 장비를 생산하는데 사용할 수 있게 된다.&lt;br/&gt; &lt;br/&gt;
+            만약 이 '생산공장'에서 생산중인 물품을 변경하고자 한다면, 도시내에 설치한 저장창고로 공장건설에 필요한 군수품(생산하고자 하는 군수품 50, 나머지 두가지 군수품 100)을 운반한 후 변경하고자 하는 군수품의 생산공장을 건설하면 된다.&lt;br/&gt; &lt;br/&gt;
             생산품은 '생산 설정' 에서 변경할 수 있고, AI 수송부대는 물류 개요' 에서 편성할 수 있다.&lt;br/&gt; &lt;br/&gt;
             아군 AI 수송부대의 트럭은 1회에 1대당 최대 200개의 군수물자를 운반할 수 있다.&lt;br/&gt; &lt;br/&gt;
            </Korean>
@@ -5216,7 +5222,7 @@
             </Portuguese>
             <Korean>&lt;br/&gt;&lt;br/&gt;
            처음 반격 작전을 시작할 때에 적군들은 우리를 우습게 여길 것이다! 하지만 작전이 진행될 수록 적군들은 우리를 위험하게 느끼게 될 것이고 점점 더 많은 적군부대와 부딛치게 될 것이다.&lt;br/&gt; &lt;br/&gt;
-           적군의 작전 능력을 억제하려면, 부차적인 임무수행을 통해 적의 후방보급기지를 파괴하거나, 보급차량을 습격, 전방으로 향하는 군수물자를 파괴하여야 한다.&lt;br/&gt; &lt;br/&gt;
+           적군의 작전 능력을 억제하려면, 부차적인 임무수행을 통해 적의 후방보급기지를 파괴하거나, 보급차량을 습격, 전방으로 향하는 군수품을 파괴하여야 한다.&lt;br/&gt; &lt;br/&gt;
            만약에 강력한 적군과 부딛치는 것을 두려워하지 않는다면, 부차적인 임무는 무시하고 오로지 적진을 향해 돌격하라!!!&lt;br/&gt; &lt;br/&gt;
            </Korean>
         </Key>
@@ -5272,8 +5278,8 @@
             </Portuguese>
             <Korean>&lt;br/&gt;&lt;br/&gt;
             전초기지나 장비 또는 AI 보병을 건설(배치)하기 위해선 우선 관리자로부터 권한을 획득해야 한다. 권한을 획득한 후 제한된 갯수의 전초기지를 건설 할 수 있고, 전초기지를 건설한 후 125m거리 이내에서 장비를 생산(배치) 할 수 있다.&lt;br/&gt; &lt;br/&gt;
-            전초기지를 건설하게 되면 제일 먼저 소형 또는 대형 저장 창고부터 건설해야 한다. 이 창고로 AI 수송부대를 이용하여 각 거점에서 생산된 군수물자를 운반, 필요한 장비를 건설(배치)해야 한다. 각 전초기지에 보관중인 보급품은 공유할 수 없다.&lt;br/&gt; &lt;br/&gt;
-            따라서 전선이 이동하게 되면, 후방의 전초기지에 저장중인 군수물자를 새로이 건설한 전방의 전초기지로 AI 수송부대를 이용하여 운반해야 한다.&lt;br/&gt; &lt;br/&gt;
+            전초기지를 건설하게 되면 제일 먼저 소형 또는 대형 저장 창고부터 건설해야 한다. 이 창고로 AI 수송부대를 이용하여 각 거점에서 생산된 군수품을 운반, 필요한 장비를 건설(배치)해야 한다. 각 전초기지에 보관중인 군수품은 공유할 수 없다.&lt;br/&gt; &lt;br/&gt;
+            따라서 전선이 이동하게 되면, 후방의 전초기지에 저장중인 군수품을 새로이 건설한 전방의 전초기지로 AI 수송부대를 이용하여 운반해야 한다.&lt;br/&gt; &lt;br/&gt;
             아군 AI 수송부대의 트럭은 1회에 1대당 최대 200개의 군수물자를 운반할 수 있다.&lt;br/&gt; &lt;br/&gt;
             주의! 지역 민간인들의 지지가 없다면 적 민병대가 출현하여 아군 AI 수송부대를 습격, 군수물자를 파괴하거나 도난 당할 수 있으니 작전시 민간인을 학살하거나 재산을 약탈하지 않는다.&lt;br/&gt; &lt;br/&gt;
            </Korean>
@@ -5323,8 +5329,8 @@
             <Korean>&lt;br/&gt;&lt;br/&gt;
            최초 작전 기지 또는 이미 건설된 전초기지의 건설(배치)메뉴에서 FOB container 또는 FOB truck을 찾을 수 있을 것이다. FOB truck을 선택하여 생산한 후 배치하고 싶은 지역으로 이동하여 건설(설치)하면 된다.&lt;br/&gt; &lt;br/&gt;
            단, 최초 작전기지로 부터 1Km, 거점으로부터 300m, 다른 전초기지로부터 2Km 이내에는 설치를 할 수 없다.&lt;br/&gt; &lt;br/&gt;
-           7항 건설(배치)에서 설명하였듯이 전초기지를 건설하게 되면 제일 먼저 소형 또는 대형 저장 창고부터 건설해야 한다. 이 후 AI 수송부대를 이용하여 각 거점 또는 후방의 전초기지에 보관중인 군수물자를 운반, 필요한 장비를 건설(배치) 하면 된다.&lt;br/&gt; &lt;br/&gt;
-           주의! 지역 민간인들의 지지가 없다면 적 민병대가 출현하여 아군 AI 수송부대를 습격, 군수물자를 파괴하거나 도난 당할 수 있으니 작전시 민간인을 학살하거나 재산을 약탈하지 않는다.&lt;br/&gt; &lt;br/&gt;
+           7항 건설(배치)에서 설명하였듯이 전초기지를 건설하게 되면 제일 먼저 소형 또는 대형 저장 창고부터 건설해야 한다. 이 후 AI 수송부대를 이용하여 각 거점 또는 후방의 전초기지에 보관중인 군수품을 운반, 필요한 장비를 건설(배치) 하면 된다.&lt;br/&gt; &lt;br/&gt;
+           주의! 지역 민간인들의 지지가 없다면 적 민병대가 출현하여 아군 AI 수송부대를 습격, 군수품을 파괴하거나 도난 당할 수 있으니 작전시 민간인을 학살하거나 재산을 약탈하지 않는다.&lt;br/&gt; &lt;br/&gt;
            </Korean>
         </Key>
         <Key ID="STR_TUTO_TITLE9">
@@ -5378,7 +5384,7 @@
             </Portuguese>
             <Korean>&lt;br/&gt;&lt;br/&gt;
             적군의 거점들을 점령하다보면 간혹 포로를 잡을 수 있다. 이 포로를 아군 전초기지로 호송하여 심문하게 되면 정보점수가 올라간다.&lt;br/&gt; &lt;br/&gt;
-            이 정보 점수를 사용하여 부차적인 임무 3가지를 반복해서 진행할 수 있는데, 임무를 성공하면, 적군의 작전 능력을 떨어트리거나, 더 많은 정보 점수, 또는 군수물자를 보상으로 받게 된다.&lt;br/&gt; &lt;br/&gt;
+            이 정보 점수를 사용하여 부차적인 임무 3가지를 반복해서 진행할 수 있는데, 임무를 성공하면, 적군의 작전 능력을 떨어트리거나, 더 많은 정보 점수, 또는 군수품을 보상으로 받게 된다.&lt;br/&gt; &lt;br/&gt;
             </Korean>
         </Key>
         <Key ID="STR_TUTO_TITLE10">
@@ -5433,7 +5439,7 @@
             </Portuguese>
             <Korean>&lt;br/&gt;&lt;br/&gt;
            - 지휘 :&lt;br/&gt; &lt;br/&gt;
-             지휘권한은 관리자가 허가한 자만이 획득할 수 있다. 지휘자는 각 거점에서 생산되고 있는 군수물자를 지정하거나 내역을 살펴 볼 수 있고, 각 군수물자를 AI수송부대를 이용하여 운반할 수 있다. 또한 제우스 기능을 사용할 수 있다.&lt;br/&gt; &lt;br/&gt;
+             지휘권한은 관리자가 허가한 자만이 획득할 수 있다. 지휘자는 각 거점에서 생산되고 있는 군수품을 지정하거나 내역을 살펴 볼 수 있고, 각각의 군수품을 AI수송부대를 이용하여 운반할 수 있다. 또한 제우스 기능을 사용할 수 있다.&lt;br/&gt; &lt;br/&gt;
            - 기타 정보 :&lt;br/&gt; &lt;br/&gt;
              항공기를 사용하기 위해서는 반드시 '비행 관제소'를 먼저 만들어야만 한다. 이후 '항공기 격납고'를 만들고 항공기를 배치한다. 항공기 격납고 수에 따라 운행할 수 있는 항공기 숫자가 결정된다.&lt;br/&gt; &lt;br/&gt;
              비행장은 평지라 할지라도 습기가 많은 지역은 항공기 이착률이 힘들기 때문에 적군 비행장을 점령하여 사용하기를 권한다.&lt;br/&gt; &lt;br/&gt;
@@ -5487,7 +5493,7 @@
             <Chinese>-- 推貨物</Chinese>
             <Turkish>-- KUTUYU İTTİR</Turkish>
             <Portuguese>-- EMPURRAR CAIXA --</Portuguese>
-            <Korean>-- 군수물품 밀기</Korean>
+            <Korean>-- 군수품 밀기</Korean>
         </Key>
         <Key ID="STR_ACTION_SORT_STORAGE">
             <Original>-- STACK AND SORT</Original>
@@ -5498,7 +5504,7 @@
             <Chinese>-- 排列並分類</Chinese>
             <Turkish>-- SIRALA VE DÜZENLE</Turkish>
             <Portuguese>-- ORDENAR E CLASSIFICAR --</Portuguese>
-            <Korean>-- 군수물품 재배치/분류</Korean>
+            <Korean>-- 군수품 재배치/분류</Korean>
         </Key>
         <!-- Added or changed in v0.96 -->
         <Key ID="STR_PARAMS_SUPPMOD">
@@ -6174,7 +6180,7 @@
             <Chinesesimp>游击队抢走了车队物资。</Chinesesimp>
             <Chinese>游擊隊搶走了車隊物資。</Chinese>
             <Portuguese>As forças de guerrilha escaparam com os recursos do comboio.</Portuguese>
-            <Korean>적군 민병대가 아군 AI수송부대가 운반중이던 군수물자를 탈취하였다.</Korean>
+            <Korean>적군 민병대가 아군 AI수송부대가 운반중이던 군수품을 탈취하였다.</Korean>
         </Key>
         <Key ID="STR_PARAMS_DEBUG_SECTORSPAWN">
             <Original>Sectorspawn</Original>
@@ -6681,13 +6687,13 @@
             <Original>Supplies produced: %1</Original>
             <German>Nachschub hergestellt: %1</German>
             <Russian>Произведено припасов: %1</Russian>
-            <Korean>생산된 보급품 : %1</Korean>
+            <Korean>생산된 군량 : %1</Korean>
         </Key>
         <Key ID="STR_STATS_SPENT_SUPPLY">
             <Original>Supllies spent: %1</Original>
             <German>Nachschub verbraucht: %1</German>
             <Russian>Припасов потрачено: %1</Russian>
-            <Korean>사용된 보급품 : %1</Korean>
+            <Korean>사용된  : %1</Korean>
         </Key>
         <Key ID="STR_STATS_SECTORS_CAPTURED">
             <Original>Sectors liberated: %1</Original>
@@ -6726,7 +6732,7 @@
             <Chinese>建造的前線基地： %1</Chinese>
             <Turkish>Kurulan FOB'ler: %1</Turkish>
             <Portuguese>FOBs construídas: %1</Portuguese>
-            <Korean>설치된 전추기지 : %1</Korean>
+            <Korean>설치된 전초기지 : %1</Korean>
         </Key>
         <Key ID="STR_STATS_FOBS_LOST">
             <Original>FOBs lost: %1</Original>
